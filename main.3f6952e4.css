@@ -6192,4 +6192,10 @@ textarea {
     margin-right: 5px
 }
 
+@media (max-width:956px) {
+    #quote{
+        visibility: collapse;
+    }
+}
+
 /*# sourceMappingURL=main.70a66962.map*/

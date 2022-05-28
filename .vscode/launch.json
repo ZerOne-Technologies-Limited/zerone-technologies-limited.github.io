@@ -6,13 +6,14 @@
     "configurations": [
 
 
+
     
         
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "index.html",
-            "file": "c:\\Users\\User\\Documents\\ZERONE\\ZerOne Portfolio new\\ZerOnePortfolio\\work.html"
+            "file": "c:\\Users\\User\\Documents\\ZERONE\\ZerOne Portfolio new\\ZerOnePortfolio\\index.html"
         }
     ]
 }
