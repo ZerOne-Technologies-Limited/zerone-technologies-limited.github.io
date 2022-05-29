@@ -6251,9 +6251,14 @@ textarea {
     }
 }
 
+.blink{
+    animation-delay: 5s;
+}
+
 .blink_me {
-    text-align: justify;
-    animation: blinker 2s linear infinite;
+    text-align: center;
+    animation: blinker 1s linear infinite;
+    animation-iteration-count: 5;
   }
   
   @keyframes blinker {  
