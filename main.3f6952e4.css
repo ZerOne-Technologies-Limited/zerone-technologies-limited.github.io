@@ -6246,6 +6246,18 @@ textarea {
     #quote{
         visibility: collapse;
     }
+    .blink_me {
+        width:40%;
+    }
 }
+
+.blink_me {
+    text-align: justify;
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  }
 
 /*# sourceMappingURL=main.70a66962.map*/
