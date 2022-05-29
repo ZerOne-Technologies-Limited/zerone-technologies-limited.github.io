@@ -36,6 +36,7 @@ section,
 summary {
     display: block
 }
+/* center navbar */
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -45,6 +46,30 @@ summary {
   .navbar .navbar-collapse {
     text-align: center;
   }
+
+  /* custom navbar */
+  .topnav {
+    overflow: hidden;
+   
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+
+
 audio,
 canvas,
 progress,
@@ -231,7 +256,6 @@ th {
     padding: 0
 }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
 
     *,
@@ -532,9 +556,31 @@ h6 small {
     font-size: 75%
 }
 
+/* zerone sizing */
 .h1,
 h1 {
     font-size: 70px
+}
+
+@media screen and (max-width: 900px) {
+    .h1,
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .h1,
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+@media screen and (max-width: 300px) {
+.h1,
+h1 {
+    font-size: 30px;
+}
 }
 
 .h2,
@@ -5689,11 +5735,13 @@ body.minimal {
 
 .hero-full-container {
     height: 100vh
+    
 }
 
 .hero-full-container h1 {
     font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 900
+    font-weight: 900;
+    /* font-size: 10vw; */
 }
 
 .hero-full-container .hero-full-wrapper {
