@@ -285,6 +285,7 @@ th {
     p {
         orphans: 3;
         widows: 3
+        
     }
 
     h2,
@@ -559,7 +560,8 @@ h6 {
 }
 
 p {
-    margin: 0 0 9.5px
+    margin: 0 0 9.5px;
+    text-align: justify;
 }
 
 .lead {
