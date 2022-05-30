@@ -50,7 +50,7 @@ summary {
   }
 
 /* blink anomation */
-@media (max-width:956px) {
+@media screen and (max-width:956px) {
     #quote{
         visibility: collapse;
     }
@@ -58,6 +58,7 @@ summary {
         width:40%;
     }
 }
+
 
 .blink{
     animation-delay: 5s;
@@ -363,7 +364,7 @@ html {
 
 body {
     font-family: Roboto Mono, Helvetica, Arial, sans-serif;
-    font-size: 11px;
+    font-size: calc(0.75em + 1vmin);
     line-height: 1.78;
     color: #000;
     background-color: #fff
@@ -5859,7 +5860,7 @@ body.minimal {
 
 body,
 p {
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: .8px;
     line-height: 25px
 }
