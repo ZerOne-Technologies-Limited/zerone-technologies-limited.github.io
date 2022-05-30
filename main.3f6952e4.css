@@ -6,7 +6,7 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
+
 html {
     scroll-behavior:smooth;
     font-family: sans-serif;
@@ -364,7 +364,8 @@ html {
 
 body {
     font-family: Roboto Mono, Helvetica, Arial, sans-serif;
-    font-size: calc(0.75em + 1vmin);
+    /* font-size: calc(0.75em + 1vmin); */
+    font-size: 11px; 
     line-height: 1.78;
     color: #000;
     background-color: #fff
@@ -5860,7 +5861,8 @@ body.minimal {
 
 body,
 p {
-    font-weight: 350;
+    /* edit font weight */
+    font-weight: 340;
     letter-spacing: .8px;
     line-height: 25px
 }
